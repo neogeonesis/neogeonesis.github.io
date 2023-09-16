@@ -1,2 +1,0 @@
-# neogeonesis.github.io
-pagina
