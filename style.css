@@ -1,0 +1,72 @@
+/* Estilos para el título */
+h1 {
+    font-size: 36px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Estilo de fuente en negrita */
+    color: #333; /* Color del título */
+    text-align: center; /* Alineación del texto al centro */
+    margin-top: 50px; /* Margen superior del título */
+    transition: font-size 0.5s, color 0.5s; /* Transición de tamaño de fuente y color */
+}
+
+/* Estilos para el título cuando el mouse está sobre él */
+h1:hover {
+    font-size: 40px; /* Cambia el tamaño de fuente del título */
+    color: black; /* Cambia el color del título */
+}
+
+/* Animación para el título */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplica la animación al título */
+.animated-title {
+    animation: fadeIn 1s ease-in-out; /* Aplica la animación de desvanecimiento durante 1 segundo */
+}
+
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente para todo el cuerpo de la página */
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el espacio de relleno predeterminado del cuerpo */
+    transition: background-color 0.5s; /* Transición de color de fondo */
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 30px; /* Tamaño de fuente del párrafo */
+    line-height: 1.5; /* Espaciado entre líneas del párrafo */
+    color: #666; /* Color del párrafo */
+    text-align: center; /* Alineación del texto al centro */
+    margin: 20px auto; /* Margen en los lados izquierdo y derecho, centrado horizontalmente */
+    max-width: 600px; /* Ancho máximo del párrafo para que no sea demasiado ancho en pantallas grandes */
+    transition: font-size 0.5s, color 0.5s; /* Transición de tamaño de fuente y color */
+}
+
+/* Estilos para el párrafo cuando el mouse está sobre él */
+p:hover {
+    font-weight: bold; /* Estilo de fuente en negrita */
+    color: red; /* Cambia el color del párrafo a rojo */
+}
+
+/* Animación para el párrafo */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplica la animación al párrafo */
+.animated-paragraph {
+    animation: fadeIn 1s ease-in-out; /* Aplica la animación de desvanecimiento durante 1 segundo */
+}
